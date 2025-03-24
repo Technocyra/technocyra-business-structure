@@ -1,27 +1,21 @@
-.montserrat(uniquifier) {
-  font-family: "Montserrat", serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
+:root {
+  --technological-blue: #0a2342;
+  --basic-gray: #454545;
+  --innovative-blue: #007acc;
 }
 
 body {
-  font-family: "Montserrat", serif;
+  font-family: "Roboto";
   margin: 0;
   padding: 0;
 }
 
-header {
-  background-color: #333;
-  color: white;
-  padding: 1rem 0;
-  text-align: center;
-}
-
 nav {
-  background-color: #444;
-  color: white;
+  background-color: var(--technological-blue);
   padding: 0.5rem 0;
+  margin-bottom: 0;
+  position: sticky;
+  top: 0;
 }
 
 nav ul {
@@ -34,6 +28,7 @@ nav ul {
 
 nav li {
   margin: 0 1rem;
+  padding: 5px;
 }
 
 nav a {
@@ -41,13 +36,10 @@ nav a {
   text-decoration: none;
 }
 
-section {
-  padding: 2rem;
-  text-align: center;
-}
+
 
 footer {
-  background-color: #333;
+  background-color: var(--technological-blue);
   color: white;
   padding: 1rem 0;
   text-align: center;
